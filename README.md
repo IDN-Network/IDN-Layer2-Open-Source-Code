@@ -1,4 +1,4 @@
-## Go Ethereum  Parallel and IDN Network
+## Go IDN Network and Ethereum
 
 Official Golang execution layer implementation of the Ethereum protocol.
 
@@ -224,7 +224,7 @@ aware of and agree upon. This consists of a small JSON file (e.g. call it `genes
 ```json
 {
   "config": {
-    "chainId": <arbitrary positive integer>,
+    "chainId": <5755>,
     "homesteadBlock": 0,
     "eip150Block": 0,
     "eip155Block": 0,

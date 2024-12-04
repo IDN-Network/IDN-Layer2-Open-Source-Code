@@ -1,5 +1,5 @@
-## Go IDN Network and Ethereum
-
+## Go IDN Network
+## Go Ethereum
 Official Golang execution layer implementation of the Ethereum protocol.
 
 [![API Reference](

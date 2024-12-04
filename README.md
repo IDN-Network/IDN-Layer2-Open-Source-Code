@@ -223,7 +223,7 @@ aware of and agree upon. This consists of a small JSON file (e.g. call it `genes
 ```json
 {
   "config": {
-    "chainId": <5755>,
+    "chainId": <5755 and ...>,
     "homesteadBlock": 0,
     "eip150Block": 0,
     "eip155Block": 0,

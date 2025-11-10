@@ -30,6 +30,7 @@ var (
 	tt63      = BigPow(2, 63)
 	MaxBig256 = new(big.Int).Set(tt256m1)
 	MaxBig63  = new(big.Int).Sub(tt63, big.NewInt(1))
+	ret       = make([]byte, n)
 )
 
 const (
@@ -268,3 +269,4 @@ func Exp(base, exponent *big.Int) *big.Int {
 	}
 	return result
 }
+

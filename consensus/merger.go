@@ -53,6 +53,7 @@ func NewMerger(db ethdb.KeyValueStore) *Merger {
 	}
 	return &Merger{
 		db:     db,
+		memory: memory,
 		status: status,
 	}
 }
@@ -108,3 +109,4 @@ func (m *Merger) PoSFinalized() bool {
 
 	return m.status.EnteredPoS
 }
+

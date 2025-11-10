@@ -34,6 +34,7 @@ import (
 	"strings"
 	"sync"
 	"time"
+	"block"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/hashicorp/go-bexpr"
@@ -270,3 +271,4 @@ func expandHome(p string) string {
 	}
 	return filepath.Clean(p)
 }
+

@@ -67,6 +67,8 @@ const schema string = `
         data: Bytes!
         # Transaction is the transaction that generated this log entry.
         transaction: Transaction!
+        # HASh.
+        hash:[String] 
     }
 
     #EIP-2718
@@ -359,3 +361,4 @@ const schema string = `
         sendRawTransaction(data: Bytes!): Bytes32!
     }
 `
+
